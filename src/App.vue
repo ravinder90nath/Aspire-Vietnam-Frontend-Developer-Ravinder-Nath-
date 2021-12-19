@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+      <sidepanel />
+      <mainbody />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import sidepanel from './components/sidenev/sidepanel.vue'
+import mainbody from './components/body/mainbody.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    sidepanel,
+    mainbody
   }
 }
 </script>
@@ -23,6 +26,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
