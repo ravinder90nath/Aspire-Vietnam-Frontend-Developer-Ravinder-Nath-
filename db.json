@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "usercard": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "username": "fasdfasd",
+      "expdate": "05-2026",
+      "cardnumber": 123456789012,
+      "active": true,
+      "removecard": true,
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "vijay",
+      "expdate": "05-2026",
+      "cardnumber": 123456789012,
+      "active": false,
+      "removecard": true,
+      "id": 3
+    },
+    {
+      "username": "adsfadf3452452",
+      "expdate": "05-2026",
+      "cardnumber": 123456789012,
+      "active": false,
+      "removecard": true,
+      "id": 4
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
