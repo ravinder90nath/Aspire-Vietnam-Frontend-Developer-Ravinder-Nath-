@@ -7,7 +7,10 @@
                             <div class="col col-lg-6 col-md-6 col-sm-6">
                                 <div class="left-head">
                                     <p>Available balance</p>
-                                    <h3><span class="green">ss</span>3000 </h3>
+                                    <h3>
+                                        <span class="green">S$</span>
+                                        <span>3000</span> 
+                                        </h3>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-md-6 col-sm-6 right-head-main">
@@ -60,17 +63,25 @@ export default {
     justify-content: flex-end;
     align-items: center;
 }
-.left-head h3 span {
-    font-size: 24px;
+.left-head h3 span.green {
+    font-size: 18px;
     color: #fff;
     background: #01d167;
-    padding: 0px 10px;
+    padding: 2px 10px;
     border-radius: 5px;
-    padding-bottom: 0;
-    margin-right: 10px;
+}
+.left-head h3 span {
+    font-size: 19px;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.left-head p {
+    font-size: 13px;
 }
 .left-head {
     float: left;
+}.left-head h3 {
+    font-weight: 600;
 }
 .modalbtn {
     background: #325BAF !important;

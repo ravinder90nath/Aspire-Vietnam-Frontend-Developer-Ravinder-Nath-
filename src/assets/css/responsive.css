@@ -54,8 +54,11 @@
     .showbtn {
         margin: 0px 23px 0px 23px;
         background: #fff;
-        padding: 6px 15px 36px 15px;
+        padding: 10px 15px 54px 15px;
         border-radius: 10px 10px 0 0;
+    }.showbtn p {
+        margin: 0;
+        float: right;
     }
     .card-slider .carousel-indicators {
         bottom: 140px;
@@ -74,6 +77,9 @@
         padding: 0px;
     }
 
+    .card-text {
+        color: #fff;
+    }
 
     /* Mobile Nev */
     

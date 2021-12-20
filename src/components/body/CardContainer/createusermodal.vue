@@ -10,7 +10,7 @@
               <input type="hidden" name="date" v-model="post.expyear" class="mb-2 mr-sm-2 mb-sm-0" placeholder="expdate" >
               <input type="hidden" name="cardnumber" v-model="post.cardnumber" v-mask="`#### - #### - #### - ####`" class="mb-2 mr-sm-2 mb-sm-0" placeholder="cardnumber" >
 
-              <b-button type="submit" @click="hideModal" ariant="primary">Save</b-button>
+              <b-button class="float-right" type="submit" @click="hideModal" ariant="primary">Save</b-button>
             </form>
         </b-modal>
     </div>

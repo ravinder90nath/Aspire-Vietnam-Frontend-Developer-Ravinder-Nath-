@@ -16,7 +16,9 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide v-for="item in list" v-bind:key="item.id">
-          <p class="showbtn"><img src="../../../assets/images/remove_red_eye-24px.png"> Show card number</p>
+            <div class="showbtn">
+              <p><img src="../../../assets/images/remove_red_eye-24px.png"> Show card number</p>
+            </div>
             <div class="green-card " :class="item.active==1?'active-card':'inactive-card'" >
                 <div class="main-card">
                     <div class="logo-img">

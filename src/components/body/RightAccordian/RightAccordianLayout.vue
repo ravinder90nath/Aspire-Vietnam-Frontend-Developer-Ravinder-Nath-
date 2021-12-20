@@ -55,6 +55,10 @@ import RecentTransactions from './RecentTransactions.vue'
     border: 1px solid #F0F0F0 !important;
     border-radius: 8px !important;    
 }
+.accordion .right-accordian:first-child {
+    margin-bottom: 20px !important;
+}
+
 .accordion .right-accordian .head-container .accordian-head{
     overflow-anchor: none;
     background: #F5F9FF;

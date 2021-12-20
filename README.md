@@ -39,3 +39,5 @@ json-server --watch db.json
 See (http://localhost:3000/usercard)
 
 
+### Freeze Card are red
+
