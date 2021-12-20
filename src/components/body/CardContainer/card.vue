@@ -173,12 +173,14 @@ export default {
     bottom: 160px;
 }
     .card-slider .carousel-indicators li {
-    width: 16px;
+    width: 8px;
     height: 8px;
     border-radius: 8px;
     background-color: #01D167;
     }
-
+  .card-slider .carousel-indicators li.active {
+    width: 16px;
+    }
     .card-slider .carousel-item {
     border-radius: 25px;
 }
