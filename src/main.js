@@ -6,6 +6,10 @@ import VueMask from 'v-mask'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+
+import './assets/css/Style.css'
+import './assets/css/responsive.css'
+
 Vue.config.productionTip = false
 
 Vue.use(VueMask)

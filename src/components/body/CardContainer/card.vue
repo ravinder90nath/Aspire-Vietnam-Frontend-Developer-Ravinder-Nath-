@@ -16,6 +16,7 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide v-for="item in list" v-bind:key="item.id">
+          <p class="showbtn"><img src="../../../assets/images/remove_red_eye-24px.png"> Show card number</p>
             <div class="green-card " :class="item.active==1?'active-card':'inactive-card'" >
                 <div class="main-card">
                     <div class="logo-img">
@@ -123,7 +124,6 @@ export default {
 .inactive-card{
 
     background: #ff0000;
-    opacity: 0.3;
 }
 .logo-img {
     display: flex;
@@ -210,5 +210,12 @@ a.carousel-control-prev, .carousel-control-next {
 }
 .action-btn .navbar-brand img {
     margin-bottom: 10px;
+}
+.showbtn{
+    color: #01D167;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 3px 0px;
+    text-align: right;
 }
 </style>

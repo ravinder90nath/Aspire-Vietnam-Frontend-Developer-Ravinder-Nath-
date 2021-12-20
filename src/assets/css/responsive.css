@@ -1,0 +1,62 @@
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+
+    .container-sidebar{
+        display: none;
+    }
+    .main-content {
+        min-height: 100vh;
+        margin-left: 0;
+        padding: 0rem;
+        background: #0C365A;
+        color: #fff;
+    }
+    .top-section{
+        padding: 1rem;
+    }
+    
+    .mobile-logo{
+        display: block;
+    }
+
+    .modalbtn {
+        background: transparent !important;
+        border: none;
+    }
+    .tab-container {
+        margin-top: 0 !important;
+    }
+    .tab-container .card {
+        background: transparent;
+        padding: 0;
+    }
+    .white-card {
+        box-shadow: none;
+        padding: 30px 0;
+    }
+    .tab-container .card-header .nav-pills .nav-link.active, .tab-container .card-header .nav-pills .nav-link {
+        color: #fff;
+    }
+    .action-btn .navbar-brand p {
+        font-size: 13px;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .card-header {
+        padding: 0 2rem !important;
+    }
+    .green-card {
+        margin: -30px 20px 0 20px;
+    }
+    .showbtn {
+        margin: 0px 23px 0px 23px;
+        background: #fff;
+        padding: 6px 15px 36px 15px;
+        border-radius: 10px 10px 0 0;
+    }
+    .card-slider .carousel-indicators {
+        bottom: 140px;
+    }
+  }
+  

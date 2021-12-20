@@ -6,16 +6,16 @@
                     <b-card-text>
                       <div class="white-card">
                             <div class="row">
-                                <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="left-card-main">
-                                    <p class="showbtn"><img src="../../assets/images/remove_red_eye-24px.png"> Show card number</p>
+                                    
                                         <card />
                                     </div>
 
                                     <cardactionbutton />
                                 </div>
 
-                                <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="right-card-main">
                                     <RightAccordianLayout />
                                     </div>
@@ -84,13 +84,5 @@ li.nav-item {
     -moz-box-shadow: 1px 1px 5px 1px rgba(176, 175, 175, 0.75);
     border-radius: 5px;
     padding: 50px 40px;
-}
-.showbtn{
-    position: absolute;
-    top: -30px;
-    right: 14px;
-    color: #01D167;
-    font-size: 12px;
-    font-weight: 600;
 }
 </style>

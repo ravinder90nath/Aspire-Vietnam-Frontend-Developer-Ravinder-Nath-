@@ -3,7 +3,7 @@
             <div class="create" data-view-active="true">
                 <div class="row">
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                        <div class="row">
+                        <div class="row top-section">
                             <div class="col col-lg-6 col-md-6 col-sm-6">
                                 <div class="left-head">
                                     <p>Available balance</p>
@@ -12,6 +12,9 @@
                             </div>
                             <div class="col col-lg-6 col-md-6 col-sm-6 right-head-main">
                                 <div class="right-head">
+                                    <div class="mobile-logo">
+                                        <img src="../../assets/images//Logo.png" >
+                                    </div>
                                     <button v-b-modal.modal-1 class="btn btn-primary modalbtn"><img src="../../assets/images//box.png">New card</button>
                                 </div>
                             </div>
@@ -74,5 +77,9 @@ export default {
 }
 .modalbtn img{
     margin-right: 10px;
+}
+.mobile-logo{
+    display: none;
+    margin-bottom: 20px;
 }
 </style>
