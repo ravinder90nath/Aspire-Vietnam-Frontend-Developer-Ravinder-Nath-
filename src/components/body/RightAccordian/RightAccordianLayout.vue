@@ -7,7 +7,7 @@
             <b-button class="accordian-head" block v-b-toggle.accordion-1 variant="info">
             <img src="../../../assets/images/Group 11889.png"> Card details</b-button>
       </b-card-header>
-      <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+      <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
         <b-card-body>
           <b-card-text>{{ textCardDetail }}</b-card-text>
         </b-card-body>
@@ -54,10 +54,6 @@ import RecentTransactions from './RecentTransactions.vue'
 .accordion .right-accordian {
     border: 1px solid #F0F0F0 !important;
     border-radius: 8px !important;    
-    margin-bottom: 30px !important;
-    box-shadow: 1px 1px 5px 1px rgb(176 175 175 / 75%);
-    -webkit-box-shadow: 1px 1px 5px 1px rgb(221 221 221 / 75%);
-    -moz-box-shadow: 1px 1px 5px 1px rgba(176, 175, 175, 0.75);
 }
 .accordion .right-accordian .head-container .accordian-head{
     overflow-anchor: none;
@@ -69,6 +65,9 @@ import RecentTransactions from './RecentTransactions.vue'
     box-shadow: none;
     text-align: left;
     padding: 0 25px;
+    box-shadow: 1px 1px 5px 1px rgb(176 175 175 / 75%);
+    -webkit-box-shadow: 1px 1px 5px 1px rgb(221 221 221 / 75%);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(176, 175, 175, 0.75);
 }
 .accordion .right-accordian .head-container .accordian-head img{    
     margin-right: 10px;

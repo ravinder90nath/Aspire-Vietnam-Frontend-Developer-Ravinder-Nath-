@@ -17,7 +17,8 @@
 
                                 <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="right-card-main">
-                                    <RightAccordianLayout />
+                                        <RightAccordianLayout />
+                                    <p class="all-transaction">View all card transactions</p>
                                     </div>
                                 </div>
                             </div>
@@ -84,5 +85,17 @@ li.nav-item {
     -moz-box-shadow: 1px 1px 5px 1px rgba(176, 175, 175, 0.75);
     border-radius: 5px;
     padding: 50px 40px;
+}.left-card-main {
+    margin-top: -24px;
+}
+.all-transaction{
+    color: #01D167;
+    background: #EDFFF5;
+    margin-top: -10px;
+    padding: 20px 0 10px 0;
+    font-size: 12px;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    border: 1px solid #DDFFEC;
 }
 </style>

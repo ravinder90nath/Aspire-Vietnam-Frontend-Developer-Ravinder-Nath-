@@ -48,7 +48,7 @@ export default {
 .main-content {
     min-height: 100vh;
     margin-left: 20rem;
-    padding: 4rem;
+    padding: 3rem;
 }
 .btn-primary {
     color: #fff;

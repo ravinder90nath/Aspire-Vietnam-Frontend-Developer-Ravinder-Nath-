@@ -36,6 +36,32 @@
         
       </div>
     </b-sidebar>
+
+    <div class="mobile-nev">
+                <!-- Image and text -->
+                <b-navbar variant="faded" type="light">
+                    <b-navbar-brand>
+                         <img src="../../assets/images/mobilenev/Logo.png"><br>
+                        <span class="mr-auto">Home</span>
+                    </b-navbar-brand>
+                    <b-navbar-brand class="active">
+                        <img src="../../assets/images/mobilenev/pay.png"><br>
+                        <span class="mr-auto">Cards</span>
+                    </b-navbar-brand>
+                    <b-navbar-brand>
+                         <img src="../../assets/images/mobilenev/Payments.png"><br>
+                        <span class="mr-auto">Payments</span>
+                    </b-navbar-brand>
+                    <b-navbar-brand>
+                        <img src="../../assets/images/mobilenev/Credit.png"><br>
+                        <span class="mr-auto">Credit</span>
+                    </b-navbar-brand>
+                    <b-navbar-brand>
+                        <img src="../../assets/images/mobilenev/Account.png"><br>
+                        <span class="mr-auto">Profile</span>
+                    </b-navbar-brand>
+                </b-navbar>
+    </div>
   </div>
 </template>
 
@@ -47,6 +73,9 @@ export default {
 
 
 <style>
+.mobile-nev {
+    display: none;
+}
 .container-sidebar .b-sidebar-body{    
     background-color: #0C365A;
 }
