@@ -6,8 +6,9 @@
                   <b-form-input name="username" v-model="post.username" id="inline-form-input-name" class="mb-2 mr-sm-2 mb-sm-0" placeholder="User Name" ></b-form-input>
               </b-form-group>
 
-              <input type="hidden" name="date" v-model="post.expdate" class="mb-2 mr-sm-2 mb-sm-0" placeholder="expdate" >
-              <input type="hidden" name="cardnumber" v-model="post.cardnumber" class="mb-2 mr-sm-2 mb-sm-0" placeholder="cardnumber" >
+              <!-- <input type="hidden" name="date" v-model="post.expmonth" class="mb-2 mr-sm-2 mb-sm-0" placeholder="expdate" >
+              <input type="hidden" name="date" v-model="post.expyear" class="mb-2 mr-sm-2 mb-sm-0" placeholder="expdate" >
+              <input type="hidden" name="cardnumber" v-model="post.cardnumber" v-mask="`#### - #### - #### - ####`" class="mb-2 mr-sm-2 mb-sm-0" placeholder="cardnumber" > -->
 
               <b-button type="submit" @click="hideModal" ariant="primary">Save</b-button>
             </form>
@@ -28,9 +29,10 @@ export default {
       return{
         post:{
           username: null,
-          expdate: "05-2026",
-          cardnumber: 123456789012,
-          active: false,
+          expmonth: Math.floor(1 + Math.random() * 12),
+          expyear: Math.floor(2000 + Math.random() * 1000),
+          cardnumber: Math.floor(1000000000000000 + Math.random() * 9000000000000000),
+          active: true,
           removecard: true,
         }
 

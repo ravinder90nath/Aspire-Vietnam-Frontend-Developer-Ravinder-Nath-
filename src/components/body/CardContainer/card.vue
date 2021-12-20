@@ -26,7 +26,7 @@
                         <p>{{item.cardnumber}}</p> 
                     </div>
                     <div class="circle1">
-                        <p>Thru: <span>{{item.expdate}}</span></p>
+                        <p>Thru: <span>{{item.expmonth}} / {{item.expyear}}</span></p>
                         <p>CVV: <span>***</span></p>
                     </div>
                     <div class="visa-img">
