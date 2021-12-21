@@ -32,7 +32,7 @@ export default {
           expmonth: Math.floor(1 + Math.random() * 12),
           expyear: Math.floor(2021 + Math.random() * 30),
           cardnumber: Math.floor(1000000000000000 + Math.random() * 9000000000000000),
-          active: false,
+          active: true,
           removecard: true,
         }
 
