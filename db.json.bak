@@ -18,15 +18,6 @@
       "removecard": true,
       "id": 2
     },
-	{
-      "username": "Sonu",
-      "expmonth": 8,
-      "expyear": 2032,
-      "cardnumber": "9820 - 8858 - 6565 - 1234",
-      "active": true,
-      "removecard": true,
-      "id": 2
-    },
     {
       "username": "User Two",
       "expmonth": 6,
