@@ -19,24 +19,6 @@
       "id": 2
     },
     {
-      "username": "ravinder",
-      "expmonth": 4,
-      "expyear": 2038,
-      "cardnumber": "7269 - 4816 - 6556 - 5355",
-      "active": true,
-      "removecard": true,
-      "id": 3
-    },
-    {
-      "username": "Test User",
-      "expmonth": 5,
-      "expyear": 2039,
-      "cardnumber": "6407 - 9335 - 2220 - 9763",
-      "active": true,
-      "removecard": true,
-      "id": 4
-    },
-    {
       "username": "User Two",
       "expmonth": 6,
       "expyear": 2034,
